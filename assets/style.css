@@ -1,10 +1,6 @@
 body {
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #e5faff;
-  color: #333;
 }
  /* Navbar */
 .navbar {
@@ -56,35 +52,26 @@ body {
   max-width: 80%;
 }
 
+ /* Main */
 
-section #about {
-  padding: 2em;
-  background-color: #ecf0f1;
-  margin: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#about:hover {
-  opacity: 1;
-}
-
-#about {
-  border: 3px white;
-  transition: border color 0.7s ease-in-out;
-  opacity: 0.85;
-}
-
-#about p {
-    text-align: center;
-    font-size: 24px;
+  .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
   }
 
-img {
-    background-position: center;
-    background-size: cover;
-    height: 1200px;
-    display: block;
-    margin: 0 auto;
-    transform: scale(0.6);
+  .about-content {
+    flex: 1;
+    padding-right: 20px
+  }
+
+  .about-img {
+    flex: 1;
+    padding-left: 20px;
+  }
+
+  .about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
   }
