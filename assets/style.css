@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e5faff;
+  color: #333;
+}
+ /* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #121010;
+  padding: 10px 20px;
+  color: #A9B2AC;
+}
+
+.navbar-header {
+  flex-grow: 1.0;
+  text-align: center;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  margin-left: 20px;
+  color: #A9B2AC;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+ /* Jumbotron */
+
+.jumbotron {
+  background-image: url('./images/London\ bridge\ picture.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 220px 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Optional: Add a subtle shadow */
+}
+
+.jumbotron h1 span {
+  font-size: 2.5em;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+
+.jumbotron p span {
+  font-size: 24px;
+  background-color: #121010;
+  max-width: 80%;
+}
+
+
+section #about {
+  padding: 2em;
+  background-color: #ecf0f1;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about:hover {
+  opacity: 1;
+}
+
+#about {
+  border: 3px white;
+  transition: border color 0.7s ease-in-out;
+  opacity: 0.85;
+}
+
+#about p {
+    text-align: center;
+    font-size: 24px;
+  }
+
+img {
+    background-position: center;
+    background-size: cover;
+    height: 1200px;
+    display: block;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
