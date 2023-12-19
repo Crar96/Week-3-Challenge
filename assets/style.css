@@ -54,54 +54,40 @@ body {
 
  /* Main */
 
-  .about {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #a5a5a5;
-  }
+ .about {
+  display: flex;
+  flex-direction: start;
+  padding: 20px;
+  font-size: 18px;
+  margin-left: 30px;
+ }
 
-  .about-content {
-    flex-basis: 100%;
-    padding: 10px;
-  }
-  
-  .about p {
-    font-size: 20px;
-    flex: 0.8;
-  }
 
-  .about h2 {
-    font-size: 30px;
-    font-style: oblique;
-  }
+ .text-center {
+  padding: 40px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 0px;
+  background-image: url(./images/Black\ Minimalist\ Linktree\ Background.png);
+ }
 
-  .about-img {
-    flex-basis: 100%;
-    padding: 10px;
-  }
+ .text-center p {
+  padding: 30px;
+  font-size: 24px;
+  color: white;
+ }
 
-  .about-img img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
+ .text-center h2 {
+  padding-bottom: 20px;
+  color: #ffffff;
+ }
 
-  .content {
-    padding: 50px;
-    background-color: rgb(194, 194, 194);
-  }
-
-  .content h2 span {
-    padding-bottom: 20px;
-    font-size: 36px;
-  }
   .sectionHeading {
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px;
      font-size: 36px;
   }
-
 
   .showsNear  {
     padding: 0px 30px 30px 30px;
@@ -109,6 +95,7 @@ body {
   .cardContainer {
     text-align: center;
   }
+  
   
   .container {
     height: 600px;
@@ -118,9 +105,17 @@ body {
     justify-content: center;
   }
 
+  .container-fluid {
+    background-color: #ecf0f1;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    background-image: url(./images/Black\ Watercolor\ Linktree\ Background.png);
+  }
 
   /* Media Queries */
-  @media (min-width: 600px) {
+  @media (min-widtsec: 600px) {
     .left-container,
     .right-container {
       flex-basis: calc(50% - 20px);
