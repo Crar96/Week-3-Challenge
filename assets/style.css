@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #b0b0b0;
 }
  /* Navbar */
 .navbar {
@@ -64,29 +65,44 @@ body {
 
 
  .text-center {
-  padding: 40px;
-  margin: 20px;
+  padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding-bottom: 0px;
   background-image: url(./images/Black\ Minimalist\ Linktree\ Background.png);
  }
 
  .text-center p {
-  padding: 30px;
+  padding-top: 30px;
   font-size: 24px;
   color: white;
+ }
+
+ .text-center span {
+  background-color: black;
  }
 
  .text-center h2 {
   padding-bottom: 20px;
   color: #ffffff;
- }
+}
+
+.text-center span {
+  background-color: black;
+}
+
+.text-center img {
+  height: 50%;
+  width: 50%;
+}
 
   .sectionHeading {
     text-align: center;
     padding: 20px;
-     font-size: 36px;
+    font-size: 36px;
+  }
+
+  .sectionHeading span {
+    background-color: black;
   }
 
   .showsNear  {
@@ -107,11 +123,11 @@ body {
 
   .container-fluid {
     background-color: #ecf0f1;
-    margin: 20px;
+    margin-right: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: white;
-    background-image: url(./images/Black\ Watercolor\ Linktree\ Background.png);
+    background-image: url(.//images/Black\ Minimalist\ Linktree\ Background\ -upside\ down.png);
   }
 
   /* Media Queries */
