@@ -33,7 +33,7 @@ body {
 color: white;
 }
 
- /* Jumbotron */
+ /*---Jumbotron---*/
 
 .jumbotron {
   background-image: url('./images/London\ bridge\ picture.jpg');
@@ -60,14 +60,19 @@ color: white;
 
  /* Main */
 
- .about {
+
+ /*---About---*/
+
+ #about {
   margin: 10px auto;
   background-image: url(./images/Vatican\ photo.jpg);
   background-size: cover;
   background-position: center;
  }
 
- .about div {
+ #about div {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
   width: 50%;
   height: 450px;
@@ -75,16 +80,18 @@ color: white;
   background-color: #000000;
  }
 
- .about span {
+ #about span {
   background-color: black;
   color: white;
  }
 
-.about h1 {
+#about h1 {
   color: white;
   font-style: oblique;
 }
  
+
+/*---Work---*/
 
  .text-center {
   padding: 30px;
@@ -122,13 +129,13 @@ color: white;
   box-shadow: 5px 2.5px 2.5px rgba(176, 176, 176, 0.1);
 }
 
-  .sectionHeading {
+  #sectionHeading {
     text-align: center;
     padding: 20px;
     font-size: 36px;
   }
  
-  .sectionHeading span {
+  #sectionHeading span {
     background-color: black;
   }
 
@@ -139,15 +146,6 @@ color: white;
     text-align: center;
   }
   
-  
-  .container {
-    height: 600px;
-    display: flex;
-    text-align: start;
-    align-items: center;
-    justify-content: center;
-  }
-
   .container-fluid {
     background-color: #ecf0f1;
     margin-right: 20px;
@@ -157,16 +155,51 @@ color: white;
     background-image: url(.//images/Black\ Minimalist\ Linktree\ Background\ -upside\ down.png);
   }
 
+/* Skills */
+
+.skills-section {
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  background-image: url(./images/Black\ Minimalist\ Linktree\ Background.png);
+  padding: 30px;
+}
+
+#skills-heading {
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+#skills-heading span {
+  background-color: black;
+}
+
+.progress {
+  margin: 25px auto;
+}
+
+.progress-bar {
+  transform: scale(1.5);
+  height: 1.5;
+  font-size: 0.9rem;
+}
+
+.skills-section div {
+  color: black;
+}
+
+
   /* Media Queries */
-  @media (min-widtsec: 600px) {
-    .left-container,
-    .right-container {
-      flex-basis: calc(50% - 20px);
+
+
+  @media only screen and (max-width: 1315px) {
+    #about div {
+      width: 100%;
+      height: auto;
     }
   }
 
-  @media only screen and (max-width: 600px) {
-      .about-img {
-        flex-direction: column; /* Changes the flex direction to column for smaller screens */
-      }
-  }
+
+  
