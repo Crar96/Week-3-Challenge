@@ -5,3 +5,5 @@ Portfolio created using custom CSS and Bootstrap. Bootstrap was used to created 
 Gitpages link: https://crar96.github.io/Week-3-Challenge/
 
 GitHub Repo: https://github.com/Crar96/Week-3-Challenge
+
+screenshots: https://github.com/Crar96/Week-3-Challenge/issues/1#issue-2060876403
